@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>Bem vindo página raiz</h3>
-    <a href="{{ url('/produtos') }}">Produtos</a>
-    <a href="{{ url('/welcome2') }}">Welcome 2</a>
+    <h2>Bem vindo</h2>
+    <p>à página do produto <b style="color: red;">{{ $name }}</b></p>
+    <a href="{{ url('/') }}">clique</a>
 </body>
 </html>
